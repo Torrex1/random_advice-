@@ -42,6 +42,8 @@
     color: #5dcda1;
     text-transform: uppercase;
     padding-top: 40px;
+    font-size: 14px;
+    letter-spacing: 4px;
 }
 
 .blockMainText {
