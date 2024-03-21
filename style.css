@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,19 +14,50 @@
 
     border: 2px solid red;
     background-color: #202632;
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
 }
 
 .container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 27em;
     height: 17.5em;
     background-color: #313a49;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
 }
 
 .blockTitle {
     color: #5dcda1;
+    text-transform: uppercase;
+    padding-top: 40px;
 }
 
 .blockMainText {
     color: #cee1ea;
+    font-size: 28px;
 }
+
+.nextAdviceBtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #55feaa;
+    border: unset;
+    cursor: pointer;
+    /* margin-top: auto; */
+
+    position: absolute;
+    bottom: -10%
+}
+
+
