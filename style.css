@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    border: 2px solid red;
+    background-color: #202632;
+}
+
+.container {
+    border: 2px solid black;
+    width: 27em;
+    height: 17.5em;
+    background-color: #313a49;
+}
+
+.blockTitle {
+    color: #5dcda1;
+}
+
+.blockMainText {
+    color: #cee1ea;
+}
