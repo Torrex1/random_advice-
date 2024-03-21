@@ -12,7 +12,6 @@
     align-items: center;
     height: 100vh;
 
-    border: 2px solid red;
     background-color: #202632;
 
     font-family: "Manrope", sans-serif;
@@ -21,9 +20,15 @@
 
 .container {
     /* border: 2px solid black; */
-    width: 27em;
-    height: 17.5em;
+    width: 30em;
+    height: 19em;
     background-color: #313a49;
+    border-radius: 15px;
+
+    background-image: url(images/pattern-divider-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: 50% 75%;
 
     display: flex;
     flex-direction: column;
