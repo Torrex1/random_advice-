@@ -28,7 +28,7 @@
     background-image: url(images/pattern-divider-desktop.svg);
     background-repeat: no-repeat;
     background-size: initial;
-    background-position: 50% 75%;
+    background-position: 50% 80%;
 
     display: flex;
     flex-direction: column;
@@ -41,14 +41,16 @@
 .blockTitle {
     color: #5dcda1;
     text-transform: uppercase;
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 14px;
     letter-spacing: 4px;
 }
 
 .blockMainText {
     color: #cee1ea;
-    font-size: 28px;
+    font-size: 26px;
+    text-align: center;
+    width: 85%;
 }
 
 .nextAdviceBtn {
