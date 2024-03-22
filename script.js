@@ -6,9 +6,13 @@ async function getRandomAdvice() {
   const response = await fetch('https://api.adviceslip.com/advice');
   const data = await response.json();
   
-  changeAdviceId(adviceId, data.slip.id)
-
+  changeAdviceId(adviceId, data.slip.id);
   changeAdvice(advice, data.slip.advice);
+}
+
+window.onload = () => {
+  if (advice.textContent.length === 0) 
+  advice.textContent = 'Чтобы получить совет, нажмите кнопку ниже';
 }
 
 function changeAdviceId (currentId, reqId) {
