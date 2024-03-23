@@ -21,7 +21,7 @@
 .container {
     /* border: 2px solid black; */
     width: 30em;
-    height: 19em;
+    height: 21em;
     background-color: #313a49;
     border-radius: 15px;
 
@@ -67,6 +67,19 @@
 
     position: absolute;
     bottom: -10%
+}
+
+@media screen and (max-width: 340px) {
+    .container {
+        width: 27em;
+    }
+    .blockTitle {
+        font-size: 12px;
+    }
+    .blockMainText {
+        font-size: 22px;
+    }
+
 }
 
 
